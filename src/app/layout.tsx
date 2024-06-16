@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PROCREATE",
-  description: "Made with ❤️ by COMMAND",
+  description: "Make ❤️",
 };
 
 export default function RootLayout({
