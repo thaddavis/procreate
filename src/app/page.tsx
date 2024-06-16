@@ -48,9 +48,7 @@ export default function Home() {
           <source src={`/${randomAudioFile}`} type="audio/mpeg" />
         </audio>
       )}
-      {/* <button onClick={selectRandomAudioFile} className="mt-4">
-        <IoIosRefresh />
-      </button> */}
+
       <button
         onClick={selectRandomAudioFile}
         className="mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
