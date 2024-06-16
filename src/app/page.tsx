@@ -17,6 +17,8 @@ export default function Home() {
       "audio5.mp3",
       "audio6.mp3",
       "audio7.mp3",
+      "audio8.mp3",
+      "audio9.mp3",
     ];
 
     console.log(

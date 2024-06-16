@@ -6,12 +6,12 @@ steps:
         "-f",
         "Dockerfile",
         "-t",
-        "us-central1-docker.pkg.dev/procreate-426616/procreate/procreate:v6",
+        "us-central1-docker.pkg.dev/procreate-426616/procreate/procreate:v7",
         ".",
       ]
   - name: "gcr.io/cloud-builders/docker"
     args:
       [
         "push",
-        "us-central1-docker.pkg.dev/procreate-426616/procreate/procreate:v6",
+        "us-central1-docker.pkg.dev/procreate-426616/procreate/procreate:v7",
       ]
