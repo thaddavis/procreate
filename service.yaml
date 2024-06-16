@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        - image: us-central1-docker.pkg.dev/procreate-426616/procreate/procreate:v2
+        - image: us-central1-docker.pkg.dev/procreate-426616/procreate/procreate:v4
           env:
           ports:
             - containerPort: 3000
